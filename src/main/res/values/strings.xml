@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AustManagement</string>
+    <string name="varsity_name">AHSANULLAH UNIVERSITY OF SCIRNCE AND TECHNOLOGY</string>
+    <string name="website_name">Click here to visit aust official website</string>
+    <string name="personalinfo_name">Personal Info</string>
+
+
+    <string-array name="My_Choice">
+
+        <item>Calculate CGPA for 1.1</item>
+        <item>Calculate CGPA for 1.2</item>
+        <item>Calculate CGPA for 2.1</item>
+        <item>Calculate CGPA for 2.2</item>
+        <item>Calculate CGPA for 3.1</item>
+        <item>Calculate CGPA for 3.2</item>
+        <item>Calculate CGPA for 4.1</item>
+        <item>Calculate CGPA for 4.2</item>
+
+    </string-array>
+
+
+</resources>

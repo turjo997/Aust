@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/webpageID"
+        android:title="VISIT AUST WEBPAGE"
+
+        app:showAsAction="never"
+
+
+        />
+    <item
+        android:id="@+id/overviewID"
+        android:title="OVERVIEW OF AUST"
+
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/coursematerialID"
+        android:title="Course Material"
+
+        app:showAsAction="never"
+
+
+        />
+
+
+
+
+</menu>

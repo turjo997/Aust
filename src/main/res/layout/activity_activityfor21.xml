@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/tableview1"
+    tools:context=".CalculatingCgpaActivity">
+
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:hint="HUM2109"
+        android:textColor="#2196F3"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@android:color/holo_blue_light"
+
+        />
+    <EditText
+
+        android:id="@+id/edittext2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:hint="MATH2101 "
+        android:inputType="numberDecimal"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_marginTop="60dp"
+        />
+    <EditText
+
+        android:id="@+id/edittext3"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:hint="EEE2141"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_marginTop="90dp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/edittext4"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:hint="CSE2105 "
+        android:inputType="numberDecimal"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_marginTop="120dp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/edittext5"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:hint="CSE2103"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_marginTop="150dp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/edittext6"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:hint="CSE2106 "
+        android:inputType="numberDecimal"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_marginTop="180dp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/edittext7"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:hint="CSE2100 "
+        android:inputType="numberDecimal"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_marginTop="210dp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/edittext8"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:hint="CSE2104"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_marginTop="240dp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/edittext9"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:hint="EEE2142 "
+        android:inputType="numberDecimal"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_marginTop="270dp"
+
+        />
+
+
+    <Button
+
+        android:id="@+id/cgpabuttonID"
+        android:layout_marginTop="400dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="CALCULATE CGPA"
+
+        android:textColor="#E91E1E"
+
+        />
+
+
+
+    <TextView
+        android:layout_marginTop="430dp"
+        android:id="@+id/showcgpaID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+
+
+        />
+
+
+</RelativeLayout>
